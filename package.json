@@ -1,0 +1,39 @@
+{
+  "name": "mk-rich",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zhengyimeng <18303592607@163.com>",
+  "description": "支持markdown语法的可配置富文本编辑器",
+  "repository": "git@gitee.com:zymeng/mk-rich.git",
+  "homepage": "https://www.zhengyimeng.com/mk-rich",
+  "scripts": {
+    "commit": "cz"
+  },
+  "bugs": {
+    "url": "https://gitee.com/zymeng/mk-rich/issues",
+    "email": "zheng-yimeng@outlook.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.zhengyimeng.com/funding"
+  },
+  "keywords": [
+    "rich",
+    "rich text",
+    "markdown",
+    "markdown rich"
+  ],
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
